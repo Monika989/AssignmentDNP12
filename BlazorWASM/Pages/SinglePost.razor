@@ -1,0 +1,64 @@
+
+@page "/SinglePost/{id:int}"  
+@using HttpClients.ClientInterfaces
+@using Domain.Models
+@using Domain.DTOs
+@inject IPostService postService
+
+
+<h3>The Post</h3>
+
+
+@if (post == null)
+{
+    <p>No posts to display</p>
+}
+else
+{
+    <div class="table-container">
+    <table class="table">
+        @* <tr> *@
+        @*     <td>@post.Id</td> *@
+        @* </tr> *@
+       
+        <tr>
+            <td class="title">@post.Title</td>
+        </tr>
+        <tr>
+            
+            <td class="owner">Written by:  @post.OwnerName</td>
+        </tr>
+        <tr>
+            <td class="body">@post.Body</td>
+        </tr>
+    </table>
+    </div>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
+
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private PostBasicDto post;
+ 
+   private string msg = "";
+    
+    protected override async Task OnInitializedAsync()  
+    {
+        msg = "";
+        try
+        {
+            post = await postService.GetByIdAsync(@Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

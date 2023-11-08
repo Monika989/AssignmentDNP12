@@ -1,0 +1,112 @@
+@page "/"
+@page "/ViewPosts"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+
+<h1>Forum</h1>
+
+<div class="filter-bar">
+     
+     <div class="filters-container">
+         <label>Filter the posts you are looking for:</label>
+         <img src="icons/@(doShowFilters ? "clear_" : "")funnel.png" class="funnel" @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel"/>
+         @if (doShowFilters)
+         {
+             <div class="filter">
+                 <label>Username:</label>
+                 <input type="text" @bind="usernameFilter"/>
+             </div>
+             <div class="filter">
+                 <label>User id:</label>
+                 <input type="number" @bind="userIdFilter"/>
+             </div>
+             <div class="filter">
+                 <label>Title contains:</label>
+                 <input type="text" @bind="titleContainsFilter"/>
+             </div>
+             <div class="filter">
+                 <label>Text contains:</label>
+                 <input type="text" @bind="bodyContainsFilter"/>
+             </div>
+             <div>
+                 <button  @onclick="LoadPosts" class="btn">Search</button>
+             </div>
+         }
+     </div>
+      
+</div>
+
+
+@if (posts == null)
+{
+}
+else if (!posts.Any())
+{
+    <p>No posts to display</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Posts</th>
+           
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in posts)
+        {
+            
+            <tr>
+                <td> <a href="/SinglePost/@item.Id">@item.Title</a> </td>  
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
+
+@code {
+    private IEnumerable<Post>? posts;    
+    
+    private string msg = "";
+    
+    private bool doShowFilters = false;
+    private string? usernameFilter;
+    private int? userIdFilter;
+    private string? titleContainsFilter;
+    private string? bodyContainsFilter;
+
+    protected override async Task OnInitializedAsync() 
+    {
+        msg = "";
+        try
+        {
+            posts = await postService.GetAsync(usernameFilter, userIdFilter,  titleContainsFilter, bodyContainsFilter);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+    private async Task LoadPosts()
+    {
+        try
+        {
+            posts = await postService.GetAsync(usernameFilter, userIdFilter,  titleContainsFilter, bodyContainsFilter);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+    
+}

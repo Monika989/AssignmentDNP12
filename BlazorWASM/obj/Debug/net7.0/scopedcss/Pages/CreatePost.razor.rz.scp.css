@@ -1,0 +1,60 @@
+.card[b-ceegisofnu] {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.card h3[b-ceegisofnu] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group[b-ceegisofnu] {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label[b-ceegisofnu] {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.title[b-ceegisofnu], .postBody[b-ceegisofnu] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-row[b-ceegisofnu] {
+    text-align: center;
+}
+
+.acceptbtn[b-ceegisofnu] {
+    background: linear-gradient(to right, #1b6ec2, #0071c1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.acceptbtn:hover[b-ceegisofnu] {
+    background: linear-gradient(to right, #0071c1, #1b6ec2);
+    color: white;
+}
+
+.error-message[b-ceegisofnu] {
+    color: red;
+}

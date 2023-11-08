@@ -1,0 +1,41 @@
+.table-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+}
+
+.title {
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #8A2BE2, #DDA0DD);
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.owner {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.body {
+    padding: 15px;
+    font-size: 18px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

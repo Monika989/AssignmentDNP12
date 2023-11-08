@@ -1,0 +1,96 @@
+.filter-bar {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.funnel{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+
+.filter {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    
+  
+}
+ a{
+     text-decoration: none;
+     color: black;
+ }   
+   a:hover{
+       font-weight: bold;
+   }
+
+.btn {
+    background-color: #DDA0DD; 
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.btn:hover {
+    background-color: #FF69B4; 
+}
+
+.button-row {
+    margin-top: 15px;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+th {
+    background: #e0e0e0;
+    color: #333; /* Dark gray text color */
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+    border-top: none; /* Remove top border */
+}
+
+td {
+    padding: 15px;
+    font-size: 16px;
+    border: none; /* Remove borders between cells */
+}
+
+td a {
+    color: #0071c1; /* Subdued blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+tr:hover td a {
+    color: #1b6ec2; /* Change link color on row hover */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #e3f0fa; /* Background color on row hover */
+}

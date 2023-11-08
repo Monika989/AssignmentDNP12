@@ -1,0 +1,97 @@
+@page "/CreatePost"
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@using Domain.DTOs
+@using System.Security.Claims
+@inject IPostService postService;
+@inject NavigationManager navMgr;
+
+@attribute [Authorize] 
+@* need to be logged in for access*@
+
+
+<div class="card">
+
+
+    <h3>Create Post</h3>
+
+    <div class="form-group field">
+
+        <label>Title:</label>
+        <input class="title" type="text" @bind="postTitle"/>
+
+        <label>Post:</label>
+        <textarea type="text" @bind="postBody" class="postBody"></textarea>
+    </div>
+
+    <div class="button-row">
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <label style="color: red">@msg</label>
+        }
+        <button @onclick="Create" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+@code {
+    
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;   
+
+    private int? userId; 
+    private string postTitle = "";
+    private string postBody = "";
+
+    private string msg = "";
+
+   
+
+    private async Task Create()
+    {
+        userId = await GetUserIdAsync();
+
+        msg = "";
+        if (userId == null)
+        {
+            msg = "Please log in to create a post.";
+            return;
+        }
+        if (string.IsNullOrEmpty(postTitle))
+        {
+            msg = "You must provide a title for your post.";
+            return;
+        }
+        if (string.IsNullOrEmpty(postBody))
+        {
+            msg = "You must provide content for your post.";
+            return;
+        }
+
+        try
+        {
+            PostCreationDto dto = new(userId.Value, postTitle, postBody);
+            var id = await postService.CreateAsync(dto);
+
+            navMgr.NavigateTo($"/SinglePost/{id}");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+
+    private async Task<int?> GetUserIdAsync()  
+    {
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+
+        IEnumerable<Claim> claims = user.Claims;
+        Claim idClaim = claims.First(claim => claim.Type.Equals("UserId"));
+        int id = int.Parse(idClaim.Value);
+        return id;
+    }
+
+}

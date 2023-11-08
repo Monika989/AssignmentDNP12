@@ -1,0 +1,70 @@
+.card[b-lmj193ty0n] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px; /* Slightly wider for better layout */
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #f7f7f7; /* Light background color */
+    font-family: Arial, sans-serif;
+}
+
+.card h3[b-lmj193ty0n] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.field[b-lmj193ty0n] {
+    margin-top: 20px;
+}
+
+.field label[b-lmj193ty0n] {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"][b-lmj193ty0n] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.label-msg[b-lmj193ty0n] {
+    color: black;
+    font-size: 16px;
+}
+
+.button-row[b-lmj193ty0n] {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.acceptbtn[b-lmj193ty0n] {
+    background: linear-gradient(to right, #1b6ec2, #0071c1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.acceptbtn:disabled[b-lmj193ty0n] {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.acceptbtn:hover[b-lmj193ty0n] {
+    background: linear-gradient(to right, #0071c1, #1b6ec2);
+    color: white;
+}
