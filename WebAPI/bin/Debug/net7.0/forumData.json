@@ -1,0 +1,151 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Maria-Simona",
+      "Password": "password"
+    },
+    {
+      "Id": 2,
+      "UserName": "Monika",
+      "Password": "password"
+    },
+    {
+      "Id": 3,
+      "UserName": "Maxim",
+      "Password": "password1"
+    },
+    {
+      "Id": 4,
+      "UserName": "VMS",
+      "Password": "password2"
+    },
+    {
+      "Id": 5,
+      "UserName": "Max",
+      "Password": "password3"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Maria-Simona",
+        "Password": "password"
+      },
+      "Title": "Favorite Books of 2023",
+      "Body": "I thought it would be great to share our favorite books from this year. My top pick is \u0022The Midnight Library\u0022 by Matt Haig. What\u0027s on your reading list? "
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Monika",
+        "Password": "password"
+      },
+      "Title": "Tech Troubleshooting",
+      "Body": "Hey everyone, I\u0027m having trouble with my computer\u0027s performance. It\u0027s been running slow lately, and I\u0027m not sure what\u0027s causing it. Any suggestions or troubleshooting tips would be greatly appreciated! "
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Maxim",
+        "Password": "password1"
+      },
+      "Title": "Travel Recommendations",
+      "Body": "Planning a vacation and looking for destination recommendations. I\u0027ve heard great things about Bali and Iceland, but I\u0027m open to other suggestions. Where have you had an amazing travel experience? "
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 4,
+        "UserName": "VMS",
+        "Password": "password2"
+      },
+      "Title": "DIY Home Improvement Projects",
+      "Body": "Share your latest DIY home improvement projects. I just finished renovating my kitchen, and I\u0027m so proud of the results. It\u0027s amazing what a fresh coat of paint and some new cabinet handles can do! "
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Max",
+        "Password": "password3"
+      },
+      "Title": "Fitness and Exercise Tips",
+      "Body": "Let\u0027s discuss fitness and exercise routines. I\u0027ve been trying to stay active with home workouts during the pandemic. What exercises or workout plans have been working well for you? "
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Max",
+        "Password": "password3"
+      },
+      "Title": "Post-Workout Nutrition Tips",
+      "Body": "After a good home workout, it\u0027s essential to refuel your body with the right nutrients. I usually go for a protein shake and a balanced meal, but I\u0027m curious about other post-workout nutrition ideas. What are your favorite snacks or meals to recover and maximize your gains?"
+    },
+    {
+      "Id": 7,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Max",
+        "Password": "password3"
+      },
+      "Title": "Overcoming Workout Plateaus",
+      "Body": "Lately, I\u0027ve hit a plateau in my home workouts, and it\u0027s been frustrating. I\u0027d love to hear your tips and strategies for breaking through those workout plateaus. Whether it\u0027s changing up routines, setting new goals, or finding extra motivation, let\u0027s help each other stay on track!"
+    },
+    {
+      "Id": 8,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Maxim",
+        "Password": "password1"
+      },
+      "Title": "Travel Packing Tips",
+      "Body": "I\u0027m all about planning a great trip! Now that I have some destination ideas, I\u0027m looking for packing tips to make my travels smoother. Do you have any must-have items, packing strategies, or organization tips that have worked well for you when going on an adventure?"
+    },
+    {
+      "Id": 9,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Maxim",
+        "Password": "password1"
+      },
+      "Title": "Traveling Solo vs. with a Group",
+      "Body": "I\u0027ve been contemplating whether to embark on my next journey solo or with a group of friends. What\u0027s your take on traveling alone versus traveling with others? Share your experiences and insights to help me make the right decision for my upcoming adventure."
+    },
+    {
+      "Id": 10,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Maria-Simona",
+        "Password": "password"
+      },
+      "Title": "Join Our Book Club",
+      "Body": "I\u0027ve found discussing books with fellow book lovers to be so rewarding. Would anyone be interested in starting a book club here? We can pick a new book each month and share our thoughts and insights. Let me know if you\u0027re up for it, and we can get the literary discussions rolling!"
+    },
+    {
+      "Id": 11,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Maria-Simona",
+        "Password": "password"
+      },
+      "Title": "Book Recommendations for 2023",
+      "Body": "\u0022The Midnight Library\u0022 was a fantastic read! I\u0027m always on the lookout for great books, and I\u0027d love to hear your recommendations for 2023. What other books have you enjoyed this year, or what\u0027s on your to-be-read list?"
+    },
+    {
+      "Id": 12,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Maria-Simona",
+        "Password": "password"
+      },
+      "Title": "test",
+      "Body": "test"
+    }
+  ]
+}
