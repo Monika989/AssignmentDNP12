@@ -26,6 +26,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Monika989"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3afddb8b-05ae-422f-ba7d-cbf0ad0c7973" />
+        <option name="url" value="https://github.com/Monika989/AssignmentDNP12.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -179,7 +193,7 @@
       <workItem from="1699479688206" duration="477000" />
       <workItem from="1699486848827" duration="998000" />
       <workItem from="1700426487509" duration="2291000" />
-      <workItem from="1700499211210" duration="11155000" />
+      <workItem from="1700499211210" duration="11884000" />
     </task>
     <task id="LOCAL-00001" summary="Swapping out the File Data Access component with an EFC Data Access component">
       <option name="closed" value="true" />
@@ -205,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700511795914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <option name="closed" value="true" />
+      <created>1700514263799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700514263799</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
