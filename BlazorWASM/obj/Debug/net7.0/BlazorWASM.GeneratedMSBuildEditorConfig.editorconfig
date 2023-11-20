@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = C:\Users\monic\Downloads\ForumApp\ForumApp-master\ForumApp-master\BlazorWASM\
+build_property.ProjectDir = C:\Users\monic\RiderProjects\AssignmentDNP12\BlazorWASM\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\monic\Downloads\ForumApp\ForumApp-master\ForumApp-master\BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\monic\RiderProjects\AssignmentDNP12\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/App.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/Index.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Shared/SurveyPrompt.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/_Imports.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/CreatePost.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ceegisofnu
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/CreateUser.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lmj193ty0n
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/Login.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xm4hp2nt19
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/LoginButtons.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5CdXR0b25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-7bsgaluun0
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/SinglePost.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/SinglePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2luZ2xlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-gl36s67m3p
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Pages/ViewPosts.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lj17aabdv5
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Shared/MainLayout.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[C:/Users/monic/Downloads/ForumApp/ForumApp-master/ForumApp-master/BlazorWASM/Shared/NavMenu.razor]
+[C:/Users/monic/RiderProjects/AssignmentDNP12/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

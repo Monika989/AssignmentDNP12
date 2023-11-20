@@ -1,5 +1,7 @@
 using Application.DaoInterfaces;
+using Domain.DTOs;
 using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FileData.DAOs;
 
@@ -42,7 +44,18 @@ public class UserFileDao : IUserDao
         );
         return Task.FromResult(existing);
     }
-    
+
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        IEnumerable<User> users = context.Users.AsEnumerable();
+        if (searchParameters.UsernameContains != null)
+        {
+            users = context.Users.Where(u => u.UserName.Contains(searchParameters.UsernameContains, StringComparison.OrdinalIgnoreCase));
+        }
+
+        return Task.FromResult(users);
+    }
+
     //add post
     //Given an Id we want to return the associated User, or null if none is found
     public Task<User?> GetByIdAsync(int id)

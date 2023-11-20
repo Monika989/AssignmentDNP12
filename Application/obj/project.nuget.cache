@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bt8ria7fsa/49s0ranzx2H96oIOXasg+EnISNxNtMIK22x++pR0wxdAmezpHWavgj/drcbkElb4UvfSSCSEMSw==",
+  "dgSpecHash": "r/Ni5EGbNXI+k2kZllTwlStn+tK2KMHKLrPcmcp9BVL0y2/TNhTYxWrp1NEJm3cDtQ0hNG/XyTs+hFtMwRFo4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monic\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\monic\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.13\\microsoft.aspnetcore.metadata.7.0.13.nupkg.sha512",

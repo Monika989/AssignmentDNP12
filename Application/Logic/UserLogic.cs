@@ -8,8 +8,6 @@ namespace Application.Logic;
 public class UserLogic : IUserLogic
 {
     private readonly IUserDao userDao;
-    
-
     public UserLogic(IUserDao userDao)  
     {
         this.userDao = userDao;
@@ -31,6 +29,10 @@ public class UserLogic : IUserLogic
         User created = await userDao.CreateAsync(toCreate);
         
         return created;
+    }
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
     }
 
     private static void ValidateData(UserCreationDto userToCreate)

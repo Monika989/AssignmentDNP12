@@ -1919,11 +1919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\BlazorWASM\\BlazorWASM.csproj",
+      "projectUniqueName": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\BlazorWASM\\BlazorWASM.csproj",
       "projectName": "BlazorWASM",
-      "projectPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\BlazorWASM\\BlazorWASM.csproj",
+      "projectPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\BlazorWASM\\BlazorWASM.csproj",
       "packagesPath": "C:\\Users\\monic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\BlazorWASM\\obj\\",
+      "outputPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\BlazorWASM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\monic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1940,8 +1940,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj"
             }
           }
         }
@@ -1984,7 +1984,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.14, 7.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -1992,7 +1992,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

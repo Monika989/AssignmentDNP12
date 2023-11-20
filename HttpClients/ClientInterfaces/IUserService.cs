@@ -8,6 +8,7 @@ public interface IUserService
 {
     //create user
     Task<User> Create(UserCreationDto dto);
+    Task<IEnumerable<User>> GetUsers(string? usernameContains = null);
     
     //log in 
     public Task LoginAsync(string username, string password);

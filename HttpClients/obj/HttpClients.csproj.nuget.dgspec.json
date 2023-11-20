@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj": {}
+    "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\Domain.csproj": {
+    "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\monic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\monic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj": {
+    "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\HttpClients.csproj",
+        "projectPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\HttpClients.csproj",
         "packagesPath": "C:\\Users\\monic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\HttpClients\\obj\\",
+        "outputPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\monic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\monic\\Downloads\\ForumApp\\ForumApp-master\\ForumApp-master\\Domain\\Domain.csproj"
+              "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\monic\\RiderProjects\\AssignmentDNP12\\Domain\\Domain.csproj"
               }
             }
           }
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.113\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
         }
       }
     }
